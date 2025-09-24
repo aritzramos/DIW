@@ -1,0 +1,9 @@
+div {
+    display: block;
+    visibility: visible;
+    border: 1px solid goldenrod
+}
+#box2 {
+    visibility: visible;
+}
+a {border: 1px solid red}

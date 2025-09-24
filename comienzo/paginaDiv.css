@@ -1,0 +1,50 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    flex: 1;
+}
+header {
+    border: 2px solid blue;
+    margin: 10px;
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+    width: 18%;
+    height: 226px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    margin: 10px;
+    width: 79%;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+main p {
+    text-align: center;
+}
+.articulo1 {
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.articulo2 {
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.articulo3 {
+    margin: 5px;
+    border: 2px solid black;
+}
+footer {
+    margin: 1%;
+    border: 2px solid;
+    text-align: center;
+}
