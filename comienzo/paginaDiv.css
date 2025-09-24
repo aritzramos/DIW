@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
 .contenedor {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     border: 2px solid red;
-    flex: 1;
+    width: 100%;
+    height: auto;
+    
 }
 header {
     border: 2px solid blue;
@@ -12,7 +16,7 @@ header {
 
 nav {
     margin: 10px;
-    width: 18%;
+    width: 20%;
     height: 226px;
     border: 2px solid black;
     display: inline-block;
@@ -21,7 +25,7 @@ nav {
 
 main {
     margin: 10px;
-    width: 79%;
+    width: 80%;
     border: 2px solid black;
     display: inline-block;
     vertical-align: top;
@@ -48,3 +52,43 @@ footer {
     border: 2px solid;
     text-align: center;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(14, 13, 13);
+    color: white;
+  }
+  .contenedor {
+    background-color: rgb(44, 38, 38);
+  }
+
+  header {
+    background-color: rgb(7, 75, 7);
+    border-color: rgb(2, 49, 2);
+  }
+  main {
+    background-color: rgb(90, 114, 33);
+  }
+  .articulo1, .articulo2, .articulo3 {
+    background-color: blue;
+  }
+  nav {
+    background-color: rgb(184, 99, 113);
+    border-color: rgb(192, 99, 115);
+    
+  }
+
+  footer {
+    background-color: rgb(57, 43, 133);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
+
